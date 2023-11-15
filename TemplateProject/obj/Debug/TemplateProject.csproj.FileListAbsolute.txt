@@ -1,0 +1,389 @@
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\bin\Debug\TemplateProject.exe.config
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\bin\Debug\TemplateProject.exe
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\bin\Debug\TemplateProject.pdb
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csprojAssemblyReference.cache
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\MainWindow.g.cs
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\App.g.cs
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\TemplateProject_MarkupCompile.cache
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\TemplateProject_MarkupCompile.lref
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\MainWindow.baml
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\TemplateProject.g.resources
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\TemplateProject.Properties.Resources.resources
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csproj.GenerateResource.cache
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csproj.CoreCompileInputs.cache
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\TemplateProject.exe
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\TemplateProject.pdb
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\App.baml
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\Styles\MainTabControl.baml
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\Styles\SecondTabControl.baml
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\Styles\Button.baml
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\Views\EmployeeWindow.g.cs
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\Views\EmployeeWindow.baml
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\Styles\TextBox.baml
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\Views\OrganizationWindow.g.cs
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\Views\OrganizationWindow.baml
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\Views\TypeProductWindow.g.cs
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\Views\TypeProductWindow.baml
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\Views\ProductWindow.g.cs
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\Views\ProductWindow.baml
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\Views\TnWindow.g.cs
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\Views\TnWindow.baml
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\Views\TtnWindow.g.cs
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\Views\TtnWindow.baml
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\Views\RequestWindow.g.cs
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\Views\RequestWindow.baml
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\bin\Debug\EntityFramework.dll
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\bin\Debug\EntityFramework.xml
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\-Arka-\source\repos\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csproj.CopyComplete
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csprojAssemblyReference.cache
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Styles\Button.baml
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Styles\MainTabControl.baml
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Styles\SecondTabControl.baml
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Styles\TextBox.baml
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\MainWindow.g.cs
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\EmployeeWindow.g.cs
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\OrganizationWindow.g.cs
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\ProductWindow.g.cs
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\RequestWindow.g.cs
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\TnWindow.g.cs
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\TtnWindow.g.cs
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\TypeProductWindow.g.cs
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\App.g.cs
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\TemplateProject_MarkupCompile.cache
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\TemplateProject_MarkupCompile.lref
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\TemplateProject.exe
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\TemplateProject.pdb
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\bin\Debug\TemplateProject.exe.config
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\bin\Debug\TemplateProject.exe
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\bin\Debug\TemplateProject.pdb
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\bin\Debug\EntityFramework.dll
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\bin\Debug\EntityFramework.xml
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\bin\Debug\ru\EntityFramework.resources.dll
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\App.baml
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\MainWindow.baml
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\EmployeeWindow.baml
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\OrganizationWindow.baml
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\ProductWindow.baml
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\RequestWindow.baml
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\TnWindow.baml
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\TtnWindow.baml
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\TypeProductWindow.baml
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\TemplateProject.g.resources
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\TemplateProject.Properties.Resources.resources
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csproj.GenerateResource.cache
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csproj.CoreCompileInputs.cache
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csproj.CopyComplete
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\bin\Debug\TemplateProject.exe.config
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\bin\Debug\TemplateProject.exe
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\bin\Debug\TemplateProject.pdb
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\bin\Debug\EntityFramework.dll
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\bin\Debug\EntityFramework.xml
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csprojAssemblyReference.cache
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Styles\Button.baml
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Styles\MainTabControl.baml
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Styles\SecondTabControl.baml
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Styles\TextBox.baml
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\MainWindow.g.cs
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\EmployeeWindow.g.cs
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\OrganizationWindow.g.cs
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\ProductWindow.g.cs
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\RequestWindow.g.cs
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\TnWindow.g.cs
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\TtnWindow.g.cs
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\TypeProductWindow.g.cs
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\App.g.cs
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\TemplateProject_MarkupCompile.cache
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\TemplateProject_MarkupCompile.lref
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\App.baml
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\MainWindow.baml
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\EmployeeWindow.baml
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\OrganizationWindow.baml
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\ProductWindow.baml
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\RequestWindow.baml
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\TnWindow.baml
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\TtnWindow.baml
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\TypeProductWindow.baml
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\TemplateProject.g.resources
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\TemplateProject.Properties.Resources.resources
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csproj.GenerateResource.cache
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csproj.CoreCompileInputs.cache
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csproj.CopyComplete
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\TemplateProject.exe
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\TemplateProject.pdb
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\bin\Debug\TemplateProject.exe.config
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\bin\Debug\TemplateProject.exe
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\bin\Debug\TemplateProject.pdb
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\bin\Debug\EntityFramework.dll
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\bin\Debug\EntityFramework.xml
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csprojAssemblyReference.cache
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csproj.ResolveComReference.cache
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\Styles\Button.baml
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\Styles\MainTabControl.baml
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\Styles\SecondTabControl.baml
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\Styles\TextBox.baml
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\MainWindow.g.cs
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\Windows\EmployeeWindow.g.cs
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\Windows\OrganizationWindow.g.cs
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\Windows\ProductWindow.g.cs
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\Windows\RequestWindow.g.cs
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\Windows\TnWindow.g.cs
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\Windows\TtnWindow.g.cs
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\Windows\TypeProductWindow.g.cs
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\App.g.cs
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\TemplateProject_MarkupCompile.cache
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\TemplateProject_MarkupCompile.lref
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\App.baml
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\MainWindow.baml
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\Windows\EmployeeWindow.baml
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\Windows\OrganizationWindow.baml
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\Windows\ProductWindow.baml
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\Windows\RequestWindow.baml
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\Windows\TnWindow.baml
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\Windows\TtnWindow.baml
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\Windows\TypeProductWindow.baml
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\TemplateProject.g.resources
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\TemplateProject.Properties.Resources.resources
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csproj.GenerateResource.cache
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csproj.CoreCompileInputs.cache
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csproj.CopyComplete
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\TemplateProject.exe
+C:\Users\glebk\Downloads\TemplateProject\TemplateProject\obj\Debug\TemplateProject.pdb
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csproj.ResolveComReference.cache
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\AddressWindow.g.cs
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\CarWindow.g.cs
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\PositionWindow.g.cs
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\TrailerWindow.g.cs
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\UnitWindow.g.cs
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\VatWindow.g.cs
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\AddressWindow.baml
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\CarWindow.baml
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\PositionWindow.baml
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\TrailerWindow.baml
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\UnitWindow.baml
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\VatWindow.baml
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csproj.ResolveComReference.cache
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\AddressWindow.g.cs
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\CarWindow.g.cs
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\PositionWindow.g.cs
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\TrailerWindow.g.cs
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\UnitWindow.g.cs
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\VatWindow.g.cs
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\AddressWindow.baml
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\CarWindow.baml
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\PositionWindow.baml
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\TrailerWindow.baml
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\UnitWindow.baml
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\VatWindow.baml
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\RealizeOrderWindow.g.cs
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\RealizeOrderWindow.baml
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\MismatchWindow.g.cs
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\MismatchWindow.baml
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\RegisterWindow.g.cs
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\RegisterWindow.baml
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\RegisterWindow.g.cs
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\MismatchWindow.g.cs
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\RealizeOrderWindow.g.cs
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\RegisterWindow.baml
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\MismatchWindow.baml
+C:\Users\-Arka-\Desktop\TemplateProject\TemplateProject\obj\Debug\Windows\RealizeOrderWindow.baml
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\bin\Debug\TemplateProject.exe.config
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\bin\Debug\TemplateProject.exe
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\bin\Debug\TemplateProject.pdb
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\bin\Debug\EntityFramework.dll
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\bin\Debug\EntityFramework.xml
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csprojAssemblyReference.cache
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csproj.ResolveComReference.cache
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Styles\Button.baml
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Styles\MainTabControl.baml
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Styles\SecondTabControl.baml
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Styles\TextBox.baml
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\MainWindow.g.cs
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\AddressWindow.g.cs
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\CarWindow.g.cs
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\EmployeeWindow.g.cs
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\RegisterWindow.g.cs
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\OrganizationWindow.g.cs
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\PositionWindow.g.cs
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\ProductWindow.g.cs
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\MismatchWindow.g.cs
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\RealizeOrderWindow.g.cs
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\RequestWindow.g.cs
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\TnWindow.g.cs
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\TrailerWindow.g.cs
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\TtnWindow.g.cs
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\TypeProductWindow.g.cs
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\UnitWindow.g.cs
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\VatWindow.g.cs
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\App.g.cs
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\TemplateProject_MarkupCompile.cache
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\TemplateProject_MarkupCompile.lref
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\App.baml
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\MainWindow.baml
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\AddressWindow.baml
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\CarWindow.baml
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\EmployeeWindow.baml
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\RegisterWindow.baml
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\OrganizationWindow.baml
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\PositionWindow.baml
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\ProductWindow.baml
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\MismatchWindow.baml
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\RealizeOrderWindow.baml
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\RequestWindow.baml
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\TnWindow.baml
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\TrailerWindow.baml
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\TtnWindow.baml
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\TypeProductWindow.baml
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\UnitWindow.baml
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\VatWindow.baml
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\TemplateProject.g.resources
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\TemplateProject.Properties.Resources.resources
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csproj.GenerateResource.cache
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csproj.CoreCompileInputs.cache
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csproj.CopyComplete
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\TemplateProject.exe
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\TemplateProject.pdb
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\bin\Debug\TemplateProject.exe.config
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\bin\Debug\TemplateProject.exe
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\bin\Debug\TemplateProject.pdb
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\bin\Debug\EntityFramework.dll
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\bin\Debug\EntityFramework.xml
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csprojAssemblyReference.cache
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csproj.ResolveComReference.cache
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Styles\Button.baml
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Styles\MainTabControl.baml
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Styles\SecondTabControl.baml
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Styles\TextBox.baml
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\MainWindow.g.cs
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\AddressWindow.g.cs
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\CarWindow.g.cs
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\EmployeeWindow.g.cs
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\RegisterWindow.g.cs
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\OrganizationWindow.g.cs
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\PositionWindow.g.cs
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\ProductWindow.g.cs
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\MismatchWindow.g.cs
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\RealizeOrderWindow.g.cs
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\RequestWindow.g.cs
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\TnWindow.g.cs
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\TrailerWindow.g.cs
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\TtnWindow.g.cs
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\TypeProductWindow.g.cs
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\UnitWindow.g.cs
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\VatWindow.g.cs
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\App.g.cs
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\TemplateProject_MarkupCompile.cache
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\TemplateProject_MarkupCompile.lref
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\App.baml
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\MainWindow.baml
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\AddressWindow.baml
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\CarWindow.baml
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\EmployeeWindow.baml
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\RegisterWindow.baml
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\OrganizationWindow.baml
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\PositionWindow.baml
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\ProductWindow.baml
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\MismatchWindow.baml
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\RealizeOrderWindow.baml
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\RequestWindow.baml
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\TnWindow.baml
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\TrailerWindow.baml
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\TtnWindow.baml
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\TypeProductWindow.baml
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\UnitWindow.baml
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\VatWindow.baml
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\TemplateProject.g.resources
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\TemplateProject.Properties.Resources.resources
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csproj.GenerateResource.cache
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csproj.CoreCompileInputs.cache
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csproj.CopyComplete
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\TemplateProject.exe
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\TemplateProject.pdb
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\AuthWindow.g.cs
+C:\Common Files\Учёба\Дипломы\Цэ мiй\TemplateProject\TemplateProject\obj\Debug\Windows\AuthWindow.baml
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\AuthWindow.g.cs
+C:\Users\-Arka-\Desktop\aoof\TemplateProject\TemplateProject\obj\Debug\Windows\AuthWindow.baml
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\AuthWindow.g.cs
+C:\Users\-Arka-\Desktop\woof\TemplateProject\TemplateProject\obj\Debug\Windows\AuthWindow.baml
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\bin\Debug\TemplateProject.exe.config
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\bin\Debug\TemplateProject.exe
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\bin\Debug\TemplateProject.pdb
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\bin\Debug\EntityFramework.dll
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\bin\Debug\EntityFramework.xml
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csprojAssemblyReference.cache
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csproj.ResolveComReference.cache
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Styles\Button.baml
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Styles\MainTabControl.baml
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Styles\SecondTabControl.baml
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Styles\TextBox.baml
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\MainWindow.g.cs
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\AddressWindow.g.cs
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\AuthWindow.g.cs
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\CarWindow.g.cs
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\EmployeeWindow.g.cs
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\RegisterWindow.g.cs
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\OrganizationWindow.g.cs
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\PositionWindow.g.cs
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\ProductWindow.g.cs
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\MismatchWindow.g.cs
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\RealizeOrderWindow.g.cs
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\RequestWindow.g.cs
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\TnWindow.g.cs
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\TrailerWindow.g.cs
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\TtnWindow.g.cs
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\TypeProductWindow.g.cs
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\UnitWindow.g.cs
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\VatWindow.g.cs
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\App.g.cs
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\TemplateProject_MarkupCompile.cache
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\TemplateProject_MarkupCompile.lref
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\App.baml
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\MainWindow.baml
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\AddressWindow.baml
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\AuthWindow.baml
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\CarWindow.baml
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\EmployeeWindow.baml
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\RegisterWindow.baml
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\OrganizationWindow.baml
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\PositionWindow.baml
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\ProductWindow.baml
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\MismatchWindow.baml
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\RealizeOrderWindow.baml
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\RequestWindow.baml
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\TnWindow.baml
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\TrailerWindow.baml
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\TtnWindow.baml
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\TypeProductWindow.baml
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\UnitWindow.baml
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\Windows\VatWindow.baml
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\TemplateProject.g.resources
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\TemplateProject.Properties.Resources.resources
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csproj.GenerateResource.cache
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csproj.CoreCompileInputs.cache
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\TemplateProject.csproj.CopyComplete
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\TemplateProject.exe
+C:\Users\glebk\OneDrive\Документы\DP\TemplateProject\TemplateProject\obj\Debug\TemplateProject.pdb
