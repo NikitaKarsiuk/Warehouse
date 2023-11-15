@@ -1,0 +1,33 @@
+﻿<Window x:Class="TemplateProject.Views.RequestWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TemplateProject.Views"
+        mc:Ignorable="d"
+        Title="RequestWindow" Height="450" Width="600">
+    <Grid>
+        <StackPanel Margin="0,0,0,0">
+            <StackPanel  Orientation="Horizontal" Margin="0,20,0,0">
+                <Button x:Name="AddButton" Content="Добавить"  Style="{StaticResource Button}" Margin="10,0,0,0"  />
+                <Button x:Name="SaveButton" Content="Сохранить"  Style="{StaticResource Button}" Margin="10,0,0,0"  />
+                <Button x:Name="PrintButton" Content="Печать"  Style="{StaticResource Button}" Margin="10, 0, 0,0" />
+                <Button x:Name="TtnButton" Content="ТТН"  Style="{StaticResource Button}" Margin="10, 0, 0,0" />
+            </StackPanel>
+
+            <StackPanel  Orientation="Horizontal" Margin="0,20,0,0">
+                <Label Margin="10,0,0,0">Поставщик</Label>
+                <ComboBox x:Name="ContractorComboBox" Width="210" Margin="40,0,0,0"/>
+            </StackPanel>
+
+            <StackPanel  Orientation="Horizontal" Margin="0,15,0,0">
+                <Label Margin="10,0,0,0">Сотрудник</Label>
+                <ComboBox x:Name="EmployeeComboBox" Width="210" Margin="41,0,0,0"/>
+            </StackPanel>
+
+            <StackPanel  Orientation="Horizontal" Margin="0,20,0,0" Height="262">
+                <DataGrid Width="562" Margin="10,20,15,20"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

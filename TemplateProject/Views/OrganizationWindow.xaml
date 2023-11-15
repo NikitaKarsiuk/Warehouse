@@ -1,0 +1,39 @@
+﻿<Window x:Class="TemplateProject.Views.OrganizationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TemplateProject.Views"
+        mc:Ignorable="d"
+        Title="OrganizationWindow" Height="270" Width="310">
+    <Grid>
+        <StackPanel Margin="0,0,0,0">
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <Label>Наименование</Label>
+                <TextBox x:Name="NameTextBox" Style="{StaticResource TextBox}" Width="183" Margin="5,0,0,0"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <Label>Адрес</Label>
+                <TextBox x:Name="AddresTextBox" Style="{StaticResource TextBox}" Width="228" Margin="11,0,0,0"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <Label>Б/Р</Label>
+                <TextBox x:Name="BankDetailsTextBox" Style="{StaticResource TextBox}" Width="228" Margin="26,0,0,0"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <Label>УТН</Label>
+                <TextBox x:Name="UTNTextBox" Style="{StaticResource TextBox}" Width="227" Margin="23,0,0,0"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <Label>ОКПО</Label>
+                <TextBox x:Name="OKPOTextBox" Style="{StaticResource TextBox}" Width="226" Margin="11,0,0,0"/>
+            </StackPanel>
+
+            <Button x:Name="SaveButton" Content="Сохранить"  Style="{StaticResource Button}" Margin="0,10,0,5"  />
+        </StackPanel>
+    </Grid>
+</Window>

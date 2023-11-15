@@ -1,0 +1,66 @@
+﻿<Window x:Class="TemplateProject.Windows.TypeProductWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TemplateProject.Windows"
+        mc:Ignorable="d"
+        Height="450" Width="305"
+        KeyUp="Window_KeyUp"
+        ResizeMode="NoResize">
+    <Grid>
+        <StackPanel Margin="0,0,0,0">
+            <StackPanel Orientation="Horizontal" Margin="0,10, 0, 0">
+                <Label>Тип продукта</Label>
+                <TextBox x:Name="TypeProductTextBox" Style="{StaticResource TextBox}" Width="170" Margin="25,0,0,0"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,10, 0, 0">
+                <Label>Площадь 200</Label>
+                <TextBox x:Name="Square200TextBox" Style="{StaticResource TextBox}" Width="170" Margin="25,0,0,0"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,10, 0, 0">
+                <Label>Площадь 400</Label>
+                <TextBox x:Name="Square400TextBox" Style="{StaticResource TextBox}" Width="170" Margin="25,0,0,0"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,10, 0, 0">
+                <Label>Площадь 650</Label>
+                <TextBox x:Name="Square650TextBox" Style="{StaticResource TextBox}" Width="170" Margin="25,0,0,0"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,10, 0, 0">
+                <Label>Площадь 800</Label>
+                <TextBox x:Name="Square800TextBox" Style="{StaticResource TextBox}" Width="170" Margin="25,0,0,0"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,10, 0, 0">
+                <Label>Площадь 1000</Label>
+                <TextBox x:Name="Square1000TextBox" Style="{StaticResource TextBox}" Width="170" Margin="18,0,0,0"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,10, 0, 0">
+                <Label>Площадь 2500</Label>
+                <TextBox x:Name="Square2500TextBox" Style="{StaticResource TextBox}" Width="170" Margin="18,0,0,0"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,10, 0, 0">
+                <Label>Площадь 4000</Label>
+                <TextBox x:Name="Square4000TextBox" Style="{StaticResource TextBox}" Width="170" Margin="18,0,0,0"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,10, 0, 0">
+                <Label>Площадь 6000</Label>
+                <TextBox x:Name="Square6000TextBox" Style="{StaticResource TextBox}" Width="170" Margin="18,0,0,0"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,10, 0, 0">
+                <Label>Площадь  8000</Label>
+                <TextBox x:Name="Square8000TextBox" Style="{StaticResource TextBox}" Width="170" Margin="18,0,0,0"/>
+            </StackPanel>
+
+            <Button x:Name="SaveButton" Content="Сохранить"  Style="{StaticResource Button}" Margin="0,15,0,0" Click="SaveButton_Click"  />
+        </StackPanel>
+    </Grid>
+</Window>

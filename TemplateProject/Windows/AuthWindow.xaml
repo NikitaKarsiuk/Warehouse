@@ -1,0 +1,46 @@
+﻿<Window x:Class="TemplateProject.Windows.AuthWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TemplateProject.Windows"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="450" Width="800"
+        KeyUp="Window_KeyUp"
+        ResizeMode="NoResize">
+    <Grid>
+        <Grid Name="AuthPage">
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">Логин</TextBlock>
+                    <TextBox Name="AuthLoginTextBox" Style="{StaticResource TextBox}" VerticalAlignment="Center" Margin="48, 0, 0, 0" Height="30"  Width="399"></TextBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">Пароль</TextBlock>
+                    <PasswordBox HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Name="AuthPassPasswordBox" PasswordChar="*" Margin="40, 0, 0, 0" Width="400" Height="30"></PasswordBox>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 20 0 0">
+                    <Button FontSize="14" Width="100" Height="35" Margin="0 0 10 10" Click="AuthButton_Click">Войти</Button>
+                    <Button FontSize="14" Width="100" Height="35" Margin="0 0 0 10" Click="RegPageButton_Click">Регистрация</Button>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+
+        <Grid Name="RegPage" Visibility="Hidden" >
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">                
+                <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">Логин</TextBlock>
+                    <TextBox Name="RegLoginTextBox" Style="{StaticResource TextBox}" Margin="62, 0, 0, 0" Width="400" Height="30"></TextBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">Пароль</TextBlock>
+                    <PasswordBox HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Name="RegPassPasswordBox" PasswordChar="*" Margin="55, 0, 0, 0" Width="400" Height="30"></PasswordBox>
+                </StackPanel>
+
+                <Button FontSize="14" Width="150" Height="35" Margin="0 10 0 10" Click="RegButton_Click">Зарегистрироваться</Button>
+                <Button FontSize="14" Width="150" Height="35" Click="AuthPageButton_Click">Назад</Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

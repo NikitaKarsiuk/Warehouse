@@ -1,0 +1,355 @@
+﻿<Window x:Class="TemplateProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TemplateProject"
+        xmlns:converters="clr-namespace:TemplateProject.Converters"
+        mc:Ignorable="d"
+        Title="Учет и заполнения документов на складе" Height="520" Width="1100"
+        Loaded="Window_Loaded"
+        KeyUp="Window_KeyUp"
+        ResizeMode="NoResize">
+
+    <Window.Resources>
+        <converters:ProductTypeConverter x:Key="ProductTypeConverter" />
+        <converters:DocumentConverter x:Key="DocumentConverter" />
+        <converters:EmployeeConverter x:Key="EmployeeConverter" />
+        <converters:ContractorConverter x:Key="ContractorConverter" />
+        <converters:ContractorTypeConverter x:Key="ContractorTypeConverter" />
+        <converters:AddressConverter x:Key="AddressConverter" />
+        <converters:PositionConverter x:Key="PositionConverter" />
+        <converters:UnitConverter x:Key="UnitConverter" />
+        <converters:VatConverter x:Key="VatConverter" />
+        <converters:CostConverter x:Key="CostConverter" />
+        <converters:ShopTypeConverter x:Key="ShopTypeConverter" />
+        <converters:PackedTypeConverter x:Key="PackedTypeConverter" />
+    </Window.Resources>
+
+    <Grid>
+        <Grid Background="#ad66a9">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <TabControl Name="TabControl" Style="{StaticResource TabControl}">
+                <TabItem Header="Справочники" Style="{StaticResource TabItem}" MouseUp="DirectoryTabControl_MouseUp">
+                    <Grid Background="#d8b1d4">
+                        <TabControl Name="SecondaryTabControl1" Style="{StaticResource SecondaryTabControl}" Grid.ColumnSpan="2" >
+                            <TabItem Header="Об организации" Style="{StaticResource SecondaryTabItem}" MouseUp="OrganizationTabItem_MouseUp">
+                                <Grid Height="456" Width="988">
+                                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                                        <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                                            <Label>Наименование</Label>
+                                            <TextBox x:Name="NameTextBox" Style="{StaticResource TextBox}" Width="246" Margin="5,0,0,0"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                                            <Label>Р/С</Label>
+                                            <TextBox x:Name="BankDetailsTextBox" Style="{StaticResource TextBox}" Width="277" Margin="38,0,0,0"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                                            <Label>УНП</Label>
+                                            <TextBox x:Name="UNPTextBox" Style="{StaticResource TextBox}" Width="278" Margin="32,0,0,0"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                                            <Label>ОКПО</Label>
+                                            <TextBox x:Name="OKPOTextBox" Style="{StaticResource TextBox}" Width="278" Margin="22,0,0,0"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                                            <Label>Контактный телефон</Label>
+                                            <TextBox x:Name="ContactNumberTextBox" Style="{StaticResource TextBox}" Width="197" Margin="22,0,0,0"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                                            <Label>Адрес</Label>
+                                            <ComboBox x:Name="AddressCombobox" Width="278" Margin="23,0,0,0">
+                                                <ComboBox.ItemTemplate>
+                                                    <DataTemplate>
+                                                        <TextBlock Text="{Binding ID, Converter={StaticResource AddressConverter}, Mode=TwoWay}"/>
+                                                    </DataTemplate>
+                                                </ComboBox.ItemTemplate>
+                                            </ComboBox>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                                            <Label>Торговая площадь, м2</Label>
+                                            <TextBox x:Name="SquareTextBox" Style="{StaticResource TextBox}" Width="206" Margin="5,0,0,0"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                                            <Label>Тип магазина</Label>
+                                            <ComboBox x:Name="ShopTypeComboBox" Width="255" Margin="5,0,0,0">
+                                                <ComboBox.ItemTemplate>
+                                                    <DataTemplate>
+                                                        <TextBlock Text="{Binding ID, Converter={StaticResource ShopTypeConverter}, Mode=TwoWay}"/>
+                                                    </DataTemplate>
+                                                </ComboBox.ItemTemplate>
+                                            </ComboBox>
+                                        </StackPanel>
+
+                                        <Button x:Name="SaveButton" Content="Сохранить"  Style="{StaticResource Button}" Margin="0,20,0,0" Click="SaveOrganizationButton_Click"  />
+                                    </StackPanel>
+                                </Grid>
+                            </TabItem>
+                            <TabItem Header="Поставщики" Style="{StaticResource SecondaryTabItem}" MouseUp="DirectoryTabItem_MouseUp">
+                                <Grid Height="456" Width="988">
+                                    <DataGrid Name="contractorDataGrid" Margin="10,10,15,55" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False">
+                                        <DataGrid.Columns>
+                                            <DataGridTextColumn Header="ID" Binding="{Binding ID}" Visibility="Hidden" />
+                                            <DataGridTextColumn Header="Название" Binding="{Binding Name}" />
+                                            <DataGridTextColumn Header="Банковские реквизиты" Binding="{Binding BankDetails}" />
+                                            <DataGridTextColumn Header="УНП" Binding="{Binding UNP}" />
+                                            <DataGridTextColumn Header="ОКПО" Binding="{Binding OKPO}" />
+                                            <DataGridTextColumn Header="Контактный номер" Binding="{Binding ContactNumber}" />
+                                            <DataGridTextColumn Header="Адрес" Binding="{Binding AddressID, Converter={StaticResource AddressConverter}, Mode=TwoWay}" />
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                    <Button x:Name="OrganizationAddButton" Content="Добавить"  Style="{StaticResource Button}" Margin="10,411,878,15" Click="OrganizationAddButton_Click"  />
+                                    <Button x:Name="OrganizationDeleteButton" Content="Удалить"  Style="{StaticResource Button}" Margin="115,411,773,15" Click="OrganizationDeleteButton_Click"  />
+                                    <Button x:Name="OrganizationChangeButton" Content="Изменить"  Style="{StaticResource Button}" Margin="220,411,668,15" Click="OrganizationChangeButton_Click"  />
+                                </Grid>
+                            </TabItem>
+                            <TabItem Header="Адрес" Style="{StaticResource SecondaryTabItem}" MouseUp="DirectoryTabItem_MouseUp">
+                                <Grid Height="456" Width="988">
+                                    <DataGrid Name="addressDataGrid" Margin="10,10,15,55" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False">
+                                        <DataGrid.Columns>
+                                            <DataGridTextColumn Header="ID" Binding="{Binding ID}" Visibility="Hidden" />
+                                            <DataGridTextColumn Header="Город" Binding="{Binding City}" />
+                                            <DataGridTextColumn Header="Улица" Binding="{Binding Street}" />
+                                            <DataGridTextColumn Header="Дом" Binding="{Binding HouseNumber}" />
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                    <Button x:Name="addressAddButton" Content="Добавить"  Style="{StaticResource Button}" Margin="10,411,878,15" Click="AddressAddButton_Click"  />
+                                    <Button x:Name="addressDeleteButton" Content="Удалить"  Style="{StaticResource Button}" Margin="115,411,773,15" Click="AddressDeleteButton_Click"  />
+                                    <Button x:Name="addressChangeButton" Content="Изменить"  Style="{StaticResource Button}" Margin="220,411,668,15" Click="AddressChangeButton_Click"  />
+                                </Grid>
+                            </TabItem>
+                            <TabItem Header="Сотрудники" Style="{StaticResource SecondaryTabItem}" MouseUp="DirectoryTabItem_MouseUp">
+                                <Grid Height="456" Width="988">
+                                    <DataGrid Name="employeeDataGrid" Margin="10,10,15,55" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False">
+                                        <DataGrid.Columns>
+                                            <DataGridTextColumn Header="ID" Binding="{Binding ID}" Visibility="Hidden" />
+                                            <DataGridTextColumn Header="ФИО" Binding="{Binding FIO}" />
+                                            <DataGridTextColumn Header="Должность" Binding="{Binding PositionID, Converter={StaticResource PositionConverter}}" />
+                                            <DataGridTextColumn Header="Организация" Binding="{Binding ContractorID, Converter={StaticResource ContractorConverter}}" />
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                    <Button x:Name="EmployeeAddButton" Content="Добавить" Style="{StaticResource Button}" Margin="10,411,878,15" Click="EmployeeAddButton_Click"  />
+                                    <Button x:Name="EmployeeDeleteButton" Content="Удалить" Style="{StaticResource Button}" Margin="115,411,773,15" Click="EmployeeDeleteButton_Click"  />
+                                    <Button x:Name="EmployeeChangeButton" Content="Изменить" Style="{StaticResource Button}" Margin="220,411,668,15" Click="EmployeeChangeButton_Click"  />
+                                </Grid>
+                            </TabItem>
+                            <TabItem Header="Машины" Style="{StaticResource SecondaryTabItem}" MouseUp="DirectoryTabItem_MouseUp">
+                                <Grid Height="456" Width="988">
+                                    <DataGrid Name="carDataGrid" Margin="10,10,15,55" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False">
+                                        <DataGrid.Columns>
+                                            <DataGridTextColumn Header="ID" Binding="{Binding ID}" Visibility="Hidden" />
+                                            <DataGridTextColumn Header="Название" Binding="{Binding Name}" />
+                                            <DataGridTextColumn Header="Номер" Binding="{Binding Number}" />
+                                            <DataGridTextColumn Header="Организация" Binding="{Binding ContractorID, Converter={StaticResource ContractorConverter}, Mode=TwoWay}" />
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                    <Button x:Name="carAddButton" Content="Добавить"  Style="{StaticResource Button}" Margin="10,411,878,15" Click="CarAddButton_Click"  />
+                                    <Button x:Name="carDeleteButton" Content="Удалить"  Style="{StaticResource Button}" Margin="115,411,773,15" Click="CarDeleteButton_Click"  />
+                                    <Button x:Name="carChangeButton" Content="Изменить"  Style="{StaticResource Button}" Margin="220,411,668,15" Click="CarChangeButton_Click"  />
+                                </Grid>
+                            </TabItem>
+                            <TabItem Header="Прицепы" Style="{StaticResource SecondaryTabItem}" MouseUp="DirectoryTabItem_MouseUp">
+                                <Grid Height="456" Width="988">
+                                    <DataGrid Name="trailerDataGrid" Margin="10,10,15,55" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False">
+                                        <DataGrid.Columns>
+                                            <DataGridTextColumn Header="ID" Binding="{Binding ID}" Visibility="Hidden" />
+                                            <DataGridTextColumn Header="Название" Binding="{Binding Name}" />
+                                            <DataGridTextColumn Header="Номер" Binding="{Binding Number}" />
+                                            <DataGridTextColumn Header="Организация" Binding="{Binding ContractorID, Converter={StaticResource ContractorConverter}, Mode=TwoWay}" />
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                    <Button x:Name="trailerAddButton" Content="Добавить"  Style="{StaticResource Button}" Margin="10,411,878,15" Click="TrailerAddButton_Click"  />
+                                    <Button x:Name="trailerDeleteButton" Content="Удалить"  Style="{StaticResource Button}" Margin="115,411,773,15" Click="TrailerDeleteButton_Click"  />
+                                    <Button x:Name="trailerChangeButton" Content="Изменить"  Style="{StaticResource Button}" Margin="220,411,668,15" Click="TrailerChangeButton_Click"  />
+                                </Grid>
+                            </TabItem>
+                            <TabItem Header="Товары" Style="{StaticResource SecondaryTabItem}" MouseUp="DirectoryTabItem_MouseUp">
+                                <Grid Height="456" Width="988">
+                                    <DataGrid Name="productDataGrid" Margin="10,10,15,55" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False">
+                                        <DataGrid.Columns>
+                                            <DataGridTextColumn Header="ID" Binding="{Binding ID}" Visibility="Hidden" />
+                                            <DataGridTextColumn Header="Название" Binding="{Binding Name}" />
+                                            <DataGridTextColumn Header="НДС, %" Binding="{Binding VatID, Converter={StaticResource VatConverter}, Mode=TwoWay}" />
+                                            <DataGridTextColumn Header="Ед. измерения" Binding="{Binding UnitID, Converter={StaticResource UnitConverter}, Mode=TwoWay}" />
+                                            <DataGridTextColumn Header="Тип" Binding="{Binding TypeID, Converter={StaticResource ProductTypeConverter}, Mode=TwoWay}" />
+                                            <DataGridTextColumn Header="Отпускная цена, руб." Binding="{Binding Cost}" />
+                                            <DataGridTextColumn Header="Тип упакованного товара" Binding="{Binding PackedTypeID, Converter={StaticResource PackedTypeConverter}, Mode=TwoWay}" />
+                                            <DataGridTextColumn Header="Оптовая надбавка, %" Binding="{Binding Wholesale}" />
+                                            <DataGridTextColumn Header="Торговая надбавка, %" Binding="{Binding Trading}" />
+                                            <DataGridTextColumn Header="Розничная цена, руб." Binding="{Binding  Converter={StaticResource CostConverter}}" />
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                    <Button x:Name="ProductAddButton" Content="Добавить" Style="{StaticResource Button}" Margin="10,411,878,15" Click="ProductAddButton_Click"  />
+                                    <Button x:Name="ProductDeleteButton" Content="Удалить" Style="{StaticResource Button}" Margin="115,411,773,15" Click="ProductDeleteButton_Click"  />
+                                    <Button x:Name="ProductChangeButton" Content="Изменить" Style="{StaticResource Button}" Margin="220,411,668,15" Click="ProductChangeButton_Click"  />
+                                </Grid>
+                            </TabItem>
+                            <TabItem Header="Тип продукта" Style="{StaticResource SecondaryTabItem}" MouseUp="DirectoryTabItem_MouseUp">
+                                <Grid Height="456" Width="988">
+                                    <DataGrid Name="productTypeDataGrid" Margin="10,10,15,55" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False">
+                                        <DataGrid.Columns>
+                                            <DataGridTextColumn Header="ID" Binding="{Binding ID}" Visibility="Hidden" />
+                                            <DataGridTextColumn Header="Название" Binding="{Binding Name}" />
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                    <Button x:Name="TypeProductAddButton" Content="Добавить"  Style="{StaticResource Button}" Margin="10,411,878,15" Click="TypeProductAddButton_Click"  />
+                                    <Button x:Name="TypeProductDeleteButton" Content="Удалить"  Style="{StaticResource Button}" Margin="115,411,773,15" Click="TypeProductDeleteButton_Click"  />
+                                    <Button x:Name="TypeProductChangeButton" Content="Изменить"  Style="{StaticResource Button}" Margin="220,411,668,15" Click="TypeProductChangeButton_Click"  />
+                                </Grid>
+                            </TabItem>
+                            <TabItem Header="Ед. измерения" Style="{StaticResource SecondaryTabItem}" MouseUp="DirectoryTabItem_MouseUp">
+                                <Grid Height="456" Width="988">
+                                    <DataGrid Name="unitDataGrid" Margin="10,10,15,15" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False">
+                                        <DataGrid.Columns>
+                                            <DataGridTextColumn Header="ID" Binding="{Binding ID}" Visibility="Hidden" />
+                                            <DataGridTextColumn Header="Название" Binding="{Binding Name}" />
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                </Grid>
+                            </TabItem>
+                            <TabItem Header="НДС" Style="{StaticResource SecondaryTabItem}" MouseUp="DirectoryTabItem_MouseUp">
+                                <Grid Height="456" Width="988">
+                                    <DataGrid Name="vatDataGrid" Margin="10,10,15,55" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False">
+                                        <DataGrid.Columns>
+                                            <DataGridTextColumn Header="ID" Binding="{Binding ID}" Visibility="Hidden" />
+                                            <DataGridTextColumn Header="Процент" Binding="{Binding Percents}" />
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                    <Button x:Name="vatAddButton" Content="Добавить"  Style="{StaticResource Button}" Margin="10,411,878,15" Click="VatAddButton_Click"  />
+                                    <Button x:Name="vatDeleteButton" Content="Удалить"  Style="{StaticResource Button}" Margin="115,411,773,15" Click="VatDeleteButton_Click"  />
+                                    <Button x:Name="vatChangeButton" Content="Изменить"  Style="{StaticResource Button}" Margin="220,411,668,15" Click="VatChangeButton_Click"  />
+                                </Grid>
+                            </TabItem>
+                        </TabControl>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Документы" Style="{StaticResource TabItem}" MouseUp="DocumentsTabControl_MouseUp">
+                    <Grid Background="#d8b1d4">
+                        <TabControl Name="SecondaryTabControl2" Style="{StaticResource SecondaryTabControl}" Grid.ColumnSpan="2">
+                            <TabItem Header="TTH" Style="{StaticResource SecondaryTabItem}" MouseUp="DocumentsTabItem_MouseUp">
+                                <Grid Height="456" Width="988">
+                                    <DataGrid Name="ttnDataGrid" Margin="10,10,15,55" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False">
+                                        <DataGrid.Columns>
+                                            <DataGridTextColumn Header="ID" Binding="{Binding ID}" Visibility="Hidden" />
+                                            <DataGridTextColumn Header="Название" Binding="{Binding ID, StringFormat={}ТТН №{0}}" />
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                    <Button x:Name="TtnProductAddButton" Content="Добавить"  Style="{StaticResource Button}" Margin="10,411,878,15" Click="TtnProductAddButton_Click"  />
+                                    <Button x:Name="TtnProductDeleteButton" Content="Удалить"  Style="{StaticResource Button}" Margin="115,411,773,15" Click="TtnProductDeleteButton_Click" />
+                                    <Button x:Name="TtnProductChangeButton" Content="Изменить"  Style="{StaticResource Button}" Margin="220,411,668,15" Click="TtnProductChangeButton_Click" />
+                                </Grid>
+                            </TabItem>
+                            <TabItem Header="Акт несоотв." MouseUp="MismatchTabItem_MouseUp" Style="{StaticResource SecondaryTabItem}">
+                                <Grid Height="459" Width="988" HorizontalAlignment="Left">
+                                    <DataGrid Name="mismatchDataGrid" Margin="10,12,17,55" IsReadOnly="True" AutoGenerateColumns="False">
+                                        <DataGrid.Columns>
+                                            <DataGridTextColumn Header="Номер акта" Binding="{Binding ID, StringFormat={}Акт №{0}}" />
+                                            <DataGridTextColumn Header="Номер ТТН" Binding="{Binding TtnID, StringFormat={}ТТН №{0}}" />
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                    <Button x:Name="MismatchAddButton" Content="Добавить" Style="{StaticResource Button}" Margin="10,411,878,15" Click="MismatchAddButton_Click"  />
+                                    <Button x:Name="MismatchDeleteButton" Content="Удалить" Style="{StaticResource Button}" Margin="115,411,773,15" Click="MismatchDeleteButton_Click" />
+                                    <Button x:Name="MismatchChangeButton" Content="Изменить" Style="{StaticResource Button}" Margin="220,411,668,15" Click="MismatchChangeButton_Click" />
+                                </Grid>
+                            </TabItem>
+                            <TabItem Header="Реестр цен" MouseUp="RegisterTabItem_MouseUp" Style="{StaticResource SecondaryTabItem}">
+                                <Grid Height="459" Width="988" HorizontalAlignment="Left">
+                                    <DataGrid Name="registerDataGrid" Margin="10,12,0,55" IsReadOnly="True" AutoGenerateColumns="False" HorizontalAlignment="Left" Width="967">
+                                        <DataGrid.Columns>
+                                            <DataGridTextColumn Header="Номер реестра" Binding="{Binding ID, StringFormat={}Реестр №{0}}" />
+                                            <DataGridTextColumn Header="Номер ТТН" Binding="{Binding TtnID, StringFormat={}ТТН №{0}}" />
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                    <Button x:Name="RegisterAddButton" Content="Добавить" Style="{StaticResource Button}" Margin="10,411,878,15" Click="RegisterAddButton_Click"  />
+                                    <Button x:Name="RegisterDeleteButton" Content="Удалить" Style="{StaticResource Button}" Margin="115,411,773,15" Click="RegisterDeleteButton_Click" />
+                                    <Button x:Name="RegisterChangeButton" Content="Изменить" Style="{StaticResource Button}" Margin="220,411,668,15" Click="RegisterChangeButton_Click" />
+                                </Grid>
+                            </TabItem>
+                            <TabItem Header="Асс. перечень" MouseUp="AssortmentListTabItem_MouseUp" Style="{StaticResource SecondaryTabItem}" />
+                            <TabItem Header="Шаблоны" Style="{StaticResource SecondaryTabItem}" MouseUp="DocumentsTabItem_MouseUp">
+                                <Grid Height="456" Width="988">
+                                    <DataGrid Name="documentsDataGrid" Margin="10,10,15,55" AutoGenerateColumns="False">
+                                        <DataGrid.Columns>
+                                            <DataGridTextColumn Binding="{Binding}" Foreground="Black" Header="Документ" />
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                    <Button x:Name="DocumentAddButton" Content="Добавить"  Style="{StaticResource Button}" Margin="10,411,878,15" Click="DocumentAddButton_Click"  />
+                                    <Button x:Name="DocumentDeleteButton" Content="Удалить"  Style="{StaticResource Button}" Margin="115,411,773,15" Click="DocumentDeleteButton_Click"  />
+                                    <Button x:Name="DocumentOpenButton" Content="Открыть"  Style="{StaticResource Button}" Margin="220,411,668,15" Click="DocumentOpenButton_Click"  />
+                                </Grid>
+                            </TabItem>
+                            <TabItem Header="TH" Visibility="Hidden" Style="{StaticResource SecondaryTabItem}" MouseUp="DocumentsTabItem_MouseUp">
+                                <Grid Height="456" Width="988">
+                                    <DataGrid Name="tnDataGrid" Margin="10,10,15,55" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False">
+                                        <DataGrid.Columns>
+                                            <DataGridTextColumn Header="ID" Binding="{Binding ID}" Visibility="Hidden" />
+                                            <DataGridTextColumn Header="Название" Binding="{Binding Converter={StaticResource DocumentConverter}}" />
+                                            <DataGridTextColumn Header="Дата" Binding="{Binding OrderDate}" />
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                    <Button x:Name="TnProductAddButton" Content="Добавить"  Style="{StaticResource Button}" Margin="10,411,878,15" Click="TnProductAddButton_Click"  />
+                                    <Button x:Name="TnProductDeleteButton" Content="Удалить"  Style="{StaticResource Button}" Margin="115,411,773,15"  />
+                                    <Button x:Name="TnProductChangeButton" Content="Изменить"  Style="{StaticResource Button}" Margin="220,411,668,15"  />
+                                </Grid>
+                            </TabItem>
+                        </TabControl>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Заявки" MouseUp="OrderTabItem_MouseUp" Style="{StaticResource TabItem}">
+                    <Grid Height="459" Width="1092" HorizontalAlignment="Left">
+                        <DataGrid Name="orderDataGrid" Margin="10,12,17,55" IsReadOnly="True" AutoGenerateColumns="False">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Номер" Binding="{Binding ID, StringFormat={}Заявка №{0}}" />
+                                <DataGridTextColumn Header="Поставщик" Binding="{Binding ContractorID, Converter={StaticResource ContractorConverter}, Mode=TwoWay}" />
+                                <DataGridTextColumn Header="Сотрудник" Binding="{Binding EmployeeID, Converter={StaticResource EmployeeConverter}, Mode=TwoWay}" />
+                                <DataGridTextColumn Header="Дата" Binding="{Binding OrderDate}" />
+                            </DataGrid.Columns>
+                        </DataGrid>
+                        <Button x:Name="ApplicationProductAddButton" Content="Добавить" Style="{StaticResource Button}" Margin="11,414,981,15" Click="ApplicationProductAddButton_Click"  />
+                        <Button x:Name="ApplicationDeleteButton" Content="Удалить" Style="{StaticResource Button}" Margin="116,414,876,15" Click="ApplicationDeleteButton_Click" />
+                        <Button x:Name="ApplicationChangeButton" Content="Изменить" Style="{StaticResource Button}" Margin="221,414,771,15" Click="ApplicationChangeButton_Click" />
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Покупки" MouseUp="RealizeOrderTabItem_MouseUp" Style="{StaticResource TabItem}">
+                    <Grid Height="459" Width="1092" HorizontalAlignment="Left">
+                        <DataGrid Name="realizeOrderDataGrid" Margin="10,12,17,55" IsReadOnly="True" AutoGenerateColumns="False">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Номер" Binding="{Binding ID, StringFormat={}Покупка №{0}}" />
+                                <DataGridTextColumn Header="Дата" Binding="{Binding OrderDate}" />
+                            </DataGrid.Columns>
+                        </DataGrid>
+                        <Button x:Name="RealizeOrderAddButton" Content="Добавить" Style="{StaticResource Button}" Margin="11,414,981,15" Click="RealizeOrderAddButton_Click"  />
+                        <Button x:Name="RealizeOrderDeleteButton" Content="Удалить" Style="{StaticResource Button}" Margin="116,414,876,15" Click="RealizeOrderDeleteButton_Click" />
+                        <Button x:Name="RealizeOrderChangeButton" Content="Изменить" Style="{StaticResource Button}" Margin="221,414,771,15" Click="RealizeOrderChangeButton_Click" />
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Склад" Style="{StaticResource TabItem}" MouseUp="StoreTabItem_MouseUp" >
+                    <Grid Height="459" Width="1092">
+                        <DataGrid Name="storeDataGrid" AutoGenerateColumns="False" IsReadOnly="True" Margin="10,12,17,55" >
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="ID" Binding="{Binding ID}" Visibility="Hidden" />
+                                <DataGridTextColumn Header="Название" Binding="{Binding Name}" />
+                                <DataGridTextColumn Header="Ед. измерения" Binding="{Binding UnitID, Converter={StaticResource UnitConverter}}" />
+                                <DataGridTextColumn Header="Тип" Binding="{Binding TypeID, Converter={StaticResource ProductTypeConverter}}" />
+                                <DataGridTextColumn Header="Количество" Binding="{Binding Count}" />
+                            </DataGrid.Columns>
+                        </DataGrid>
+                        <Button x:Name="AssListOpenButton" Content="Асс. перечень" Style="{StaticResource Button}" Margin="-201,414,771,15" Click="AssListOpenButton_Click" />
+                    </Grid>
+                </TabItem>
+            </TabControl>
+        </Grid>
+    </Grid>
+</Window>

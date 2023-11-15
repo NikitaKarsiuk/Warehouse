@@ -1,0 +1,43 @@
+﻿<Window x:Class="TemplateProject.Windows.RealizeOrderWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:converters="clr-namespace:TemplateProject.Converters"
+        xmlns:local="clr-namespace:TemplateProject.Windows"
+        mc:Ignorable="d"
+        Height="380" Width="700" Loaded="Window_Loaded"
+        KeyUp="Window_KeyUp"
+        ResizeMode="NoResize">
+
+    <Window.Resources>
+        <converters:CostConverter x:Key="CostConverter" />
+        <converters:UnitConverter x:Key="UnitConverter" />
+        <converters:PackedTypeConverter x:Key="PackedTypeConverter" />
+    </Window.Resources>
+
+    <Grid>
+        <StackPanel Margin="0,0,0,0">
+            <StackPanel  Orientation="Horizontal" Margin="0,20,0,0">
+                <Button x:Name="SaveButton" Content="Сохранить"  Style="{StaticResource Button}" Margin="10,0,0,0" Click="SaveButton_Click"  />
+                <Button x:Name="DeleteButton" Content="Удалить"  Style="{StaticResource Button}" Margin="10,0,0,0" Click="DeleteButton_Click"  />
+                <Button x:Name="PrintButton" Content="Чек" Visibility="Hidden" Style="{StaticResource Button}" Margin="10, 0, 0,0" />
+                <Button Name="PrintPriceTagButton" Content="Ценник" Visibility="Hidden" Style="{StaticResource Button}" HorizontalAlignment="Left" Click="PrintPriceTag_Click" />
+            </StackPanel>
+
+            <StackPanel  Orientation="Horizontal" Margin="0,20,0,0" Height="262">
+                <DataGrid x:Name="ProductDataGrid" CurrentCellChanged="ProductDataGrid_CurrentCellChanged" AutoGenerateColumns="False" Width="662" Margin="10,0,15,0">
+                    <DataGrid.Columns>
+                        <DataGridComboBoxColumn x:Name="nameColumn" Header="Название" DisplayMemberPath="Name" SelectedItemBinding="{Binding Product}" />
+                        <DataGridTextColumn Header="Тип продукта" Binding="{Binding TypeName}" IsReadOnly="True" />
+                        <DataGridTextColumn Header="Ед. измерения" Binding="{Binding UnitName}" IsReadOnly="True" />
+                        <DataGridTextColumn Header="Тип упакованного товара" Binding="{Binding PackedName}" IsReadOnly="True" />
+                        <DataGridTextColumn Header="Количество" Binding="{Binding OrderCount}" />
+                        <DataGridTextColumn Header="Цена, руб." Binding="{Binding Product, Converter={StaticResource CostConverter}}" IsReadOnly="True" />
+                        <DataGridTextColumn Header="Сумма, руб." Binding="{Binding Sum}" IsReadOnly="True" />
+                    </DataGrid.Columns>
+                </DataGrid>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
